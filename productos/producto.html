@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Producto · Mansión Venus</title>
+<meta name="description" content="Conoce todos los detalles: fotos, beneficios y ficha técnica. Pide por WhatsApp con envío discreto.">
+<link rel="icon" href="../assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css?v=20260828c">
+</head>
+<body>
+
+<div id="age-gate">
+  <div class="gate-card">
+    <img class="gate-logo" src="../assets/img/logo.png" alt="Mansión Venus">
+    <h2>Contenido +18</h2>
+    <p>Este sitio contiene productos e imágenes de carácter íntimo, exclusivos para mayores de edad. Al continuar confirmas que eres mayor de 18 años.</p>
+    <div class="gate-actions">
+      <button class="btn btn-gold btn-block" id="gate-enter">Soy mayor de 18 · Entrar</button>
+      <a class="gate-exit" id="gate-exit" role="button">Soy menor de 18, salir</a>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="site-nav">
+    <a href="../index.html" class="brand">
+      <img src="../assets/img/logo.png" alt="Mansión Venus">
+      <span>Mansión Venus</span>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html#cat-ellas">Para Ellas</a>
+      <a href="../index.html#cat-ellos">Para Ellos</a>
+      <a href="../index.html#cat-parejas">Para Parejas</a>
+      <a href="../index.html#faq">Preguntas</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-gold" id="header-wa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <div id="product-detail-root"></div>
+
+  <section class="section">
+    <p class="eyebrow">También te puede interesar</p>
+    <h2 class="section-title related-title">Más de esta categoría</h2>
+    <div class="product-grid" id="related-root" style="margin-top:28px"></div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <p class="eyebrow">Dudas frecuentes</p>
+    <h2 class="section-title">Antes de pedir</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q"><span>¿El empaque revela lo que compré?</span><span class="plus">+</span></button>
+        <div class="faq-a">Nunca. Todo llega en caja o bolsa neutra, sin ningún logo, nombre de producto ni imagen relacionada con la tienda.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Cómo confirmo mi pedido?</span><span class="plus">+</span></button>
+        <div class="faq-a">Toca "Pedir por WhatsApp", se abre el chat con el mensaje ya listo con el nombre y precio del producto. Un asesor confirma todo contigo.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Qué medios de pago aceptan?</span><span class="plus">+</span></button>
+        <div class="faq-a">Contraentrega, Bre-B, USDT y tarjeta (con recargo del 5%). Lo coordinas directamente con el asesor.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>¿Tiene garantía?</span><span class="plus">+</span></button>
+        <div class="faq-a">Sí. Ante cualquier defecto de fábrica, lo cambiamos sin costo. Escríbenos dentro de los primeros días tras recibirlo.</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="site">
+  <div class="container">
+    <div class="brand"><img src="../assets/img/logo.png" alt=""><span>Mansión Venus</span></div>
+    <p class="foot-tag">Bienestar íntimo &middot; Placer &middot; Conexión</p>
+    <p class="foot-wa">WhatsApp: <a id="foot-wa" href="#" target="_blank" rel="noopener">+57 310 871 0281</a></p>
+    <div class="payment-row">
+      <span class="lbl">Medios de pago:</span>
+      <span>Contraentrega</span><span>&middot;</span><span>Bre-B</span><span>&middot;</span><span>USDT</span><span>&middot;</span><span>Tarjeta +5%</span>
+    </div>
+    <p class="foot-legal">Contenido exclusivo para mayores de 18 años. Todos los pedidos se procesan y despachan de forma 100% discreta.</p>
+  </div>
+</footer>
+
+<div class="sticky-wa">
+  <a class="btn btn-gold" id="sticky-wa-link" href="#" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4 3 1.2 3 .8 3.5.8.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5-1.3c1.4.8 3.1 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15 3.4 13.5 3.4 12c0-4.7 3.9-8.6 8.6-8.6s8.6 3.9 8.6 8.6-3.9 8.6-8.6 8.6z"/></svg>
+    <span id="sticky-wa-label">Pedir por WhatsApp</span>
+  </a>
+</div>
+
+<script>const IMG_BASE = "../"; const PROD_BASE = "";</script>
+<script src="../assets/js/products-data.js?v=20260828c"></script>
+<script src="../assets/js/main.js?v=20260828c"></script>
+<script>
+  const generalMsg = "Hola! Estoy en la web de Mansión Venus y tengo algunas dudas antes de pedir. ¿Me ayudas?";
+  const headerWa = document.getElementById("header-wa");
+  const footWa = document.getElementById("foot-wa");
+  if(headerWa) headerWa.href = waLink(generalMsg);
+  if(footWa) footWa.href = waLink(generalMsg);
+</script>
+</body>
+</html>
